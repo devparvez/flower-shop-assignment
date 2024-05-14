@@ -110,3 +110,19 @@ header{
   justify-content: space-between;
   gap:100px;
 }
+/* Instagram styles */
+.instagram-content{
+  width:1140px;
+  margin:30px auto;
+}
+.instagram{
+  margin: 100px 0;
+  
+}
+.insta-image-box{
+  display: flex;
+  width: 1140px;
+  margin:0 auto;
+  gap:20px;
+  justify-content: space-between;
+}
