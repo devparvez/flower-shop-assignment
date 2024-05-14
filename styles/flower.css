@@ -1,0 +1,40 @@
+/* Common shared styles */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+  }
+  .primary-description{
+    font-size:18px;
+    color:#272727;
+  }
+  .btn-primary{
+    background-color: #E55473;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    padding:15px 35px;
+  }
+  
+
+
+
+
+/* Banner styles */
+header{
+    background-color: #e3cbd0;
+}
+.banner{
+    display:flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    gap:20px;
+}
+.banner-title{
+    font-size:65px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
