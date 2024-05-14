@@ -92,6 +92,7 @@ header{
   padding:100px;
   
 }
+
 .delivery-content{
   display: flex;
   justify-content: space-between;
@@ -125,4 +126,28 @@ header{
   margin:0 auto;
   gap:20px;
   justify-content: space-between;
+}
+/* latest deal section styles */
+.latest-deal{
+  width:1140px;
+  margin:0 auto;
+  background-image: url("Rectangle\ 9.png");
+  padding:200px;
+  background-repeat: no-repeat;
+}
+/* Message styles here */
+.message-form input[type="email"]{
+  padding:15px 300px 15px 15px;
+  border:none;
+  margin-right: 20px;
+}
+footer{
+  background-color: black;
+  padding:300px;
+}
+.white{
+  color:#fff;
+}
+.flower-red{
+  color:#E55473;
 }
