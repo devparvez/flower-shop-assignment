@@ -50,6 +50,7 @@ header{
 /* flower's featured styles */
 .flowers-featured{
     margin-top:80px;
+    margin-bottom:100px;
 }
 .flower-featured-content{
     margin:50px auto;
@@ -64,13 +65,20 @@ header{
     justify-content: space-between;
     max-width: 1140px;
     margin:20px auto;
+    gap:20px;
 }
 .img-box{
-    background-color: red;
-    border-radius: 100px 100px 0 0;
+    background-color:#ed8dbb;
+    border-radius: 50% 50% 0 0;
     padding:100px;
 }
 .img-box img{
-    width:300px;
+    width:200px;
     
+}
+#image-equal{
+  padding:138px 100px;
+}
+#image-equ{
+  padding:88px 100px;
 }
