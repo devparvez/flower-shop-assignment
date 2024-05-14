@@ -13,6 +13,7 @@ body {
     font-size:40px;
     font-weight: 800;
     color:#272727;
+    margin: 0;
   }
   .btn-primary{
     background-color: #E55473;
@@ -68,7 +69,7 @@ header{
     gap:20px;
 }
 .img-box{
-    background-color:#ed8dbb;
+    background-color:#e3cbd0;
     border-radius: 50% 50% 0 0;
     padding:100px;
 }
@@ -85,7 +86,7 @@ header{
 /* delivery section styles */
 .delivery{
   width: 1140px;
-  background-color: gainsboro;
+  background-color: #e3cbd0;
   border-radius:5px;
   margin:100px auto;
   padding:100px;
@@ -95,4 +96,17 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+/* hot deal styles */
+.hot-deal{
+  background-color: #e3cbd0;
+  padding: 100px;
+}
+.hot-deal-content{
+  display: flex;
+  width:1140px;
+  margin:0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap:100px;
 }
