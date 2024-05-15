@@ -102,6 +102,8 @@ header{
 .hot-deal{
   background-color: #e3cbd0;
   padding: 100px;
+  margin-top: 100px;
+  margin-bottom:100px;
 }
 .hot-deal-content{
   display: flex;
@@ -117,23 +119,33 @@ header{
   margin:30px auto;
 }
 .instagram{
-  margin: 100px 0;
+  margin:0 auto;
+  width: 1140px;
+  
   
 }
 .insta-image-box{
   display: flex;
-  width: 1140px;
-  margin:0 auto;
-  gap:20px;
   justify-content: space-between;
+  gap:30px;
+  
+
+  
 }
+
 /* latest deal section styles */
 .latest-deal{
-  width:1140px;
-  margin:0 auto;
+   width:1140px;
+   margin:100px auto; 
+}
+.background{
   background-image: url("Rectangle\ 9.png");
-  padding:200px;
+  padding:200px 200px 200px 200px ;
   background-repeat: no-repeat;
+  background-position: top right;
+  border-radius: 5px;
+  margin-left: 100px;
+
 }
 /* Message styles here */
 .message-form input[type="email"]{
