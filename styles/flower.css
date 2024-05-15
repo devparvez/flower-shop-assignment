@@ -153,9 +153,11 @@ header{
   border:none;
   margin-right: 20px;
 }
+/* footer styles  */
 footer{
   background-color: black;
   padding:300px;
+  margin-top:0px;
 }
 .white{
   color:#fff;
